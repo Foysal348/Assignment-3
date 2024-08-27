@@ -14,8 +14,10 @@
       <link rel="preconnect" href="https://fonts.googleapis.com">
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
       <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+      <!-- Font awesome CDN  -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
       <style>
-     .manrope {
+     .manrope{
   font-family: "Manrope", sans-serif;
   font-optical-sizing: auto;
 }
@@ -44,7 +46,9 @@
         <div class="navbar bg-base-100">
           <div class="navbar-start">
             
-            <a class="btn btn-ghost text-xl">Rinterio</a>
+            <button class="btn btn-ghost font-bold text-2xl"><i
+              class="fa-solid fa-arrow-right -rotate-45 bg-[#ABEF5F] rounded-2xl p-1"></i> Rinterio</button>
+
           </div>
           <div class="navbar-center hidden lg:flex">
             <ul class="menu menu-horizontal px-1">
@@ -56,15 +60,18 @@
             </ul>
           </div>
           <div class="navbar-end">
-            <div>
-              <div>
-                <button> <i class="fa-solid fa-magnifying-glass"></i></button>
-               
-               <button> <i class="fa-thin fa-cart-shopping"></i></button>
-              </div>
+             
+              
+                <button> <i class="fa-solid fa-magnifying-glass rounded-2xl p-1 bg-[#E9E9E9]"></i>
+                </button>
+               <button><i class="fa-solid fa-cart-shopping-fast rounded-2xl p-1 bg-[#E9E9E9]"></i></button>
              
              
-              <button class="btn">Book Consult</button>
+             
+             
+              <button class="btn btn-ghost font-bold text-2xl bg-[#ABEF5F]">Book Consult <i
+                class="fa-solid fa-arrow-right -rotate-45 bg-black rounded-2xl p-1 text-white"></i>
+              </button>
             </div>
             
             <div class="dropdown">
@@ -96,13 +103,25 @@
         </div>
        </nav>
     <!-- Header section  -->
-     <div>
-     
-     </div>
+    <section class="h-[80vh] flex flex-col w-11/12 mx-auto  ">
+      <div class="space-x-4 space-y-4">
+        <img class="" src="assets/banner.png" alt="banner">
+        <div class="items-center">
+          <h1 class="manrope text-5xl font-extrabold"> A barn house of this design has a <br> striking appearance</h1>
+          <p class="manrope text-base font-medium">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood,
+             sleek metal accents, and large windows that flood the space with natural light.</p>
+        </div>
+        
+           <button class="btn contrast-less: bg-[#c1fa80]">View Details <i
+            class="fa-solid fa-arrow-right -rotate-45 bg-[#ABEF5F] rounded-2xl p-1"></i></button>
+      </div>
+      
+    </section>
         
     </header>
     <!-- Main Section  -->
     <main>
+      <!-- Main Section 1 -->
 
     </main>
     <!-- Footer Section  -->
