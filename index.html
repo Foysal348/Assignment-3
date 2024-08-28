@@ -62,14 +62,14 @@
           <div class="navbar-end">
              
               
-                <button> <i class="fa-solid fa-magnifying-glass rounded-2xl p-1 bg-[#E9E9E9]"></i>
+                <button class="hidden md:block m-2 "> <i class="fa-solid fa-magnifying-glass rounded-2xl p-1 bg-[#E9E9E9]"></i>
                 </button>
-               <button><i class="fa-solid fa-cart-shopping-fast rounded-2xl p-1 bg-[#E9E9E9]"></i></button>
+               <button class="m-2 hidden md:block"><i class="fa-solid fa-cart-shopping  rounded-2xl p-1 bg-[#E9E9E9]"></i></button>
              
              
              
              
-              <button class="btn btn-ghost font-bold text-2xl bg-[#ABEF5F]">Book Consult <i
+              <button class="btn btn-ghost font-bold text-2xl hidden md:block bg-[#ABEF5F]">Book Consult <i
                 class="fa-solid fa-arrow-right -rotate-45 bg-black rounded-2xl p-1 text-white"></i>
               </button>
             </div>
@@ -122,13 +122,13 @@
     <!-- Main Section  -->
     <main class="bg-[#F4F4F4] mx-auto">
       <!-- Main Section part 1 -->
-         <section class="bg-[#F4F4F4] py-[48px] md:py-[100px] px-6 lg:px-0">
+         <section class="bg-[#F4F4F4] py-[48px] md:py-[100px] px-6 lg:px-0 manrope">
 
           <!-- Container. -->
           <div class="relative container mx-auto">
               <img src="assets/Vector.png" alt="" class="hidden lg:block absolute -top-16 -left-12">
 
-              <div class="flex flex-col lg:flex-row justify-between">
+              <div class="flex flex-col  justify-between lg:flex-row">
 
                   <!-- Design Content. -->
                   <div class="lg:w-1/2 grid grid-cols-1 items-center">
@@ -137,7 +137,7 @@
                       <div
                           class="w-[130px] flex gap-1 mx-auto lg:mx-0 bg-[#FFFFFF] rounded-[24px] px-4 py-2 mb-4">
                           <div class=""><i class="fa-solid fa-arrow-right"></i></div>
-                          <div class="">
+                          <div>
                               <p class="font-bold">About Us</p>
                           </div>
                       </div>
@@ -155,7 +155,7 @@
 
                       <!-- Design Box. -->
                       <div class="grid grid-cols-1 md:grid-cols-2 md:gap-5 lg:grid-cols-1">
-                          <!-- Design Box - 1 -->
+                          <!--Box - 1 -->
                           <div
                               class="mb-6 w-full lg:w-[650px] flex gap-5 lg:gap-8 p-6 bg-[#FFFFFF] rounded-[16px]">
                               <img src="assets/commercial.png" alt="" class="h-2/5 lg:h-full">
@@ -166,7 +166,7 @@
                               </div>
                           </div>
 
-                          <!-- Design Box - 2 -->
+                          <!--Box - 2 -->
                           <div
                               class="mb-6 w-full lg:w-[650px] flex gap-5 lg:gap-8 p-6 bg-[#FFFFFF] rounded-[16px]">
                               <img src="assets/residential.png" alt="" class="h-2/5 lg:h-full">
@@ -188,28 +188,31 @@
           </div>
        </section>
         <!-- Main Section part 2 -->
-         <section class=" mx-auto p-8 bg-[#F4F4F4]">
+         <section class=" mx-auto p-8 bg-[#F4F4F4] manrope">
           <div>
-            <div>
+            <div class="flex flex-col text-center gap-3">
+              <button class="btn  bg-[#FFFFFF] rounded-2xl p-1  "><i class="fa-solid fa-arrow-right "></i>How we works</button>
+              <h1 >Our Works Process</h1>
+              <p>The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
 
             </div>
-            <div class="lg:grid lg:grid-cols-4 md:grid md:grid-cols-2 gap-4">
-              <div class="mb-6 w-full lg:w-[275px] flex flex-col gap-5 lg:gap-8 md:gap-8 p-6 bg-[#FFFFFF] rounded-[16px]">
+            <div class="lg:grid lg:grid-cols-4 md:grid md:grid-cols-2 gap-4 ">
+              <div class="mb-6 w-full lg:w-[275px] flex flex-col gap-5 md:gap-8 p-6 lg:space-y-4 md:space-y-4 lg:gap-8 bg-[#E7C1D3] rounded-[16px]">
                 <img class="w-[48px] h-[48px]" src="assets/concept.png" alt="">
                 <h1>Concept</h1>
                 <p>The barn house captivates with its blend of rustic charm and modern.</p>
               </div>
-              <div class="mb-6 w-full lg:w-[275px] flex flex-col gap-5 md:gap-8 md:space-y-4  lg:space-y-4 lg:gap-8 p-6 bg-[#FFFFFF] rounded-[16px]">
+              <div class="mb-6 w-full lg:w-[275px] flex flex-col gap-5 md:gap-8 md:space-y-4 p-6 lg:space-y-4 lg:gap-8 bg-[#EFDA6E] rounded-[16px]">
                 <img class="w-[48px] h-[48px]" src="assets/flow-chart.png" alt="">
                 <h1>Design Process</h1>
                 <p>The barn house captivates with its blend of rustic charm and modern.</p>
               </div>
-              <div class="mb-6 w-full lg:w-[275px] flex flex-col gap-5 lg:gap-8 md:gap-8 p-6 bg-[#FFFFFF] rounded-[16px]">
+              <div class="mb-6 w-full lg:w-[275px] flex flex-col gap-5 md:gap-8 p-6 md:space-y-4 lg:space-y-4 lg:gap-8 bg-[#A4DAC3] rounded-[16px]">
                 <img class="w-[48px] h-[48px]" src="assets/vision.png" alt="">
                 <h1>Supervision </h1>
                 <p>The barn house captivates with its blend of rustic charm and modern.</p>
               </div>
-              <div class="mb-6 w-full lg:w-[275px] flex flex-col gap-5 lg:gap-8 p-6 bg-[#FFFFFF] rounded-[16px]">
+              <div class="mb-6 w-full lg:w-[275px] flex flex-col gap-5 md:gap-8  p-6 lg:space-y-4 md:space-y-4 lg:gap-8 bg-[#77AAEA] rounded-[16px]">
                 <img class="w-[48px] h-[48px]" src="assets/budget-planning.png" alt="">
                 <h1>Budget Planning </h1>
                 <p>The barn house captivates with its blend of rustic charm and modern.</p>
@@ -217,6 +220,50 @@
             </div>
           </div>
          </section>
+         <!-- Main Section Part 3  -->
+          <section class="p-[100px] manrope text-center gap-10">
+            <div class="space-y-4">
+              <button class="btn text-[#494949] bg-[#ABEF5F33] rounded-md"><i class="fa-solid fa-arrow-right"></i>Explore our Latest works</button>
+              <h1 class=" font-bold text-4xl">Our Latest Portfolio</h1>
+              <p class=" font-medium text-lg">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
+            </div>
+            <div  class=""> 
+              <!-- imgage part 1   -->
+                <div class="lg:flex m-6 "> 
+                  <div class="m-6 p-6 gap-3 bg-[#FFFFFF] rounded-md lg:flex lg:justify-center shadow"> 
+                    <img class="" src="assets/img1.png" alt="img1">
+                  <div>
+                      <h1 class="font-extrabold text-[24px]">Commercial</h1>
+                      <p  class=" font-medium text-lg">The barn house captivates with its blend of rustic charm and modern. The barn house captivates with
+                         its blend of rustic charm and modern .</p>
+                         <button class="btn btn-ghost contrast-less text-[20px] font-extrabold">View Details <i
+                          class="fa-solid fa-arrow-right -rotate-45 bg-[#ABEF5F] rounded-2xl p-1"></i></button>
+                     </div>
+                     
+                   </div>
+                   <img class="p-3 m-1 bg-[#FFFFFF] rounded-lg" src="assets/img2.png" alt="">
+                </div>
+                <!-- imgage part 2  -->
+                 <div class="lg:flex m-6 ">
+                  <img class="p-6 bg-[#FFFFFF] rounded-lg" src="assets/img3.png" alt="">
+                  <div class="m-3 p-6 gap-3 bg-[#FFFFFF] rounded-md lg:flex lg:justify-center shadow"> 
+                    <img class="" src="assets/img4.png" alt="img4">
+                  <div>
+                      <h1 class="font-extrabold text-[24px]">Commercial</h1>
+                      <p  class=" font-medium text-lg">The barn house captivates with its blend of rustic charm and modern. The barn house captivates with
+                         its blend of rustic charm and modern .</p>
+                         <button class="btn btn-ghost contrast-less text-[20px] font-extrabold">View Details <i
+                          class="fa-solid fa-arrow-right -rotate-45 bg-[#ABEF5F] rounded-2xl p-1"></i></button>
+                     </div>
+                     
+                   </div>
+                   <img class="p-6 bg-[#FFFFFF] rounded-lg" src="assets/img5.png" alt="">
+                 </div>
+
+             </div>  
+          
+
+          </section>
 
 
     </main>
